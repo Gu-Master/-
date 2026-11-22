@@ -1,0 +1,13 @@
+{
+  "name": "wanjie-world",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "万劫 — сервер и клиент живого мира",
+  "scripts": {
+    "dev": "node --watch server/src/index.js",
+    "start": "node server/src/index.js",
+    "check": "node --check server/src/index.js"
+  },
+  "engines": { "node": ">=20" }
+}
